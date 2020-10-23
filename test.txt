@@ -1,0 +1,4 @@
+void saxpy(int n, float *x, float *y, float a){
+__global__ void saxpy_gpu(float *xg, float *yg, float a){
+   saxpy_gpu<<<(ARRAY_SIZE+TPB-1)/TPB, TPB>>>(xg, yg, a);
+   saxpy(ARRAY_SIZE, x, y, a);

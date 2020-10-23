@@ -1,0 +1,36 @@
+GPU Execution time:  0.002108097
+CPU Execution time:  0.000000000
+Maximum error is:   0.000000000100
+Elements of z:  14.000000000000,  14.000000000000
+Elements of y:  14.000000000000,  14.000000000000
+#define ARRAY_SIZE 100
+Computing SAXPY on the GPU... Done
+Computing SAXPY on the CPU... Done
+GPU Execution time:  0.002397060
+CPU Execution time:  0.000000954
+Maximum error is:   0.000000000100
+Elements of z:  14.000000000000,  14.000000000000
+Elements of y:  14.000000000000,  14.000000000000
+#define ARRAY_SIZE 1000
+Computing SAXPY on the GPU... Done
+Computing SAXPY on the CPU... Done
+GPU Execution time:  0.001901150
+CPU Execution time:  0.000003815
+Maximum error is:   0.000000000100
+Elements of z:  14.000000000000,  14.000000000000
+Elements of y:  14.000000000000,  14.000000000000
+Computing SAXPY on the GPU... Done
+Computing SAXPY on the CPU... Done
+GPU Execution time:  0.002197027
+CPU Execution time:  0.000041962
+Maximum error is:   0.000000000100
+Elements of z:  14.000000000000,  14.000000000000
+Elements of y:  14.000000000000,  14.000000000000
+#define ARRAY_SIZE 100000
+Computing SAXPY on the GPU... Done
+Computing SAXPY on the CPU... Done
+GPU Execution time:  0.001532078
+CPU Execution time:  0.000370979
+Maximum error is:   0.000000000100
+Elements of z:  14.000000000000,  14.000000000000
+Elements of y:  14.000000000000,  14.000000000000

@@ -1,0 +1,19 @@
+==24895== NVPROF is profiling process 24895, command: ./exercise_2.out
+==24895== Profiling application: ./exercise_2.out
+==24895== Profiling result:
+            Type  Time(%)      Time     Calls       Avg       Min       Max  Name
+ GPU activities:   58.98%  256.33us         2  128.17us  127.80us  128.53us  [CUDA memcpy HtoD]
+                   27.27%  118.52us         1  118.52us  118.52us  118.52us  [CUDA memcpy DtoH]
+                   13.75%  59.771us         1  59.771us  59.771us  59.771us  saxpy_gpu(float*, float*, float)
+      API calls:   97.12%  109.88ms         2  54.939ms  11.963us  109.87ms  cudaMalloc
+                    1.17%  1.3240ms         3  441.34us  209.92us  580.25us  cudaMemcpy
+                    0.45%  504.54us         1  504.54us  504.54us  504.54us  cudaFree
+                    0.39%  442.08us         1  442.08us  442.08us  442.08us  cudaLaunchKernel
+                    0.38%  432.64us        96  4.5060us     344ns  188.09us  cuDeviceGetAttribute
+                    0.32%  365.32us         1  365.32us  365.32us  365.32us  cudaDeviceSynchronize
+                    0.11%  124.52us         1  124.52us  124.52us  124.52us  cuDeviceTotalMem
+                    0.04%  45.791us         1  45.791us  45.791us  45.791us  cuDeviceGetName
+                    0.01%  14.146us         1  14.146us  14.146us  14.146us  cuDeviceGetPCIBusId
+                    0.00%  3.6380us         3  1.2120us     390ns  1.8570us  cuDeviceGetCount
+                    0.00%  2.0590us         2  1.0290us     502ns  1.5570us  cuDeviceGet
+                    0.00%     609ns         1     609ns     609ns     609ns  cuDeviceGetUuid
